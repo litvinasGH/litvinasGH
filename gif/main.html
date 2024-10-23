@@ -31,10 +31,7 @@
 
         // Обновляем счётчик посещений
         runTransaction(visitsRef, (currentVisits) => {
-            if(currentVisits){
-                return (currentVisits || 0) + 1;
-            }
-            return "Загрузка...";
+            return (currentVisits || 0) + 1;
         });
 
         // Получаем текущее количество посещений и отображаем
