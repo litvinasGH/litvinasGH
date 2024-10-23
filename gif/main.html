@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Stats</title>
+    <!-- Firebase App (модульный способ работы) -->
+    <script type="module">
+        // Импорт необходимых методов из Firebase SDK
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+        import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js";
+        
+        // Конфигурация Firebase
+        const firebaseConfig = {
+            apiKey: "AIzaSyD06RRe5nEF5V6NhDF7dzKukUsGA0wDUZQ",
+            authDomain: "githubvc-cb16d.firebaseapp.com",
+            databaseURL: "https://githubvc-cb16d-default-rtdb.firebaseio.com",
+            projectId: "githubvc-cb16d",
+            storageBucket: "githubvc-cb16d.appspot.com",
+            messagingSenderId: "796184488338",
+            appId: "1:796184488338:web:bc8c38d97121ab4926f94b",
+            measurementId: "G-53FWT89H8G"
+        };
+
+        // Инициализация Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getDatabase(app);
+
+        // Ссылка на visits
+        const visitsRef = ref(db, 'visits');
+
+        // Обновляем счётчик посещений
+        runTransaction(visitsRef, (currentVisits) => {
+            if(currentVisits){
+                return (currentVisits || 0) + 1;
+            }
+            return "Загрузка...";
+        });
+
+        // Получаем текущее количество посещений и отображаем
+        onValue(visitsRef, (snapshot) => {
+            const visitCount = snapshot.val();
+            document.getElementById('visitCount').innerText = visitCount;
+        });
+    </script>
+</head>
+
+<body>
+    <h1>Количество посещений:</h1>
+    <div id="visitCount">Загрузка...</div>
+</body>
+</html>
