@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Аккаунт Информация</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #333; }
+        .info { margin-bottom: 15px; }
+        .repo-list { margin-top: 20px; }
+        .repo-item { margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Информация о GitHub Аккаунте</h1>
+
+    <div id="user-info"></div>
+    <div id="repo-list"></div>
+
+    <script>
+        const username = 'litvinasGH'; // Замените на ваше имя пользователя
+
+        fetch(`https://api.github.com/users/${username}`)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('user-info').innerHTML = `
+              <div class="info">Имя пользователя: ${data.name || 'Не указано'}</div>
+              <div class="info">Email: ${data.email || 'Не указан'}</div>
+              <div class="info">Био: ${data.bio || 'Не указано'}</div>
+              <div class="info">Компания: ${data.company || 'Не указана'}</div>
+              <div class="info">Город: ${data.location || 'Не указан'}</div>
+              <div class="info">Дата регистрации: ${new Date(data.created_at).toLocaleDateString()}</div>
+              <div class="info">Количество посещений: ${data.visits_count || 'Неизвестно'}</div>
+            `;
+            console.log(data);
+            return fetch(`https://api.github.com/users/${username}/repos`);
+          })
+          .then(repoData => repoData.json())
+          .then(repos => {
+            const repoList = document.getElementById('repo-list');
+            repos.forEach(repo => {
+              const repoItem = document.createElement('div');
+              repoItem.className = 'repo-item';
+              repoItem.innerHTML = `<strong>${repo.name}</strong><br>Описание: ${repo.description || 'Не указано'}<br>Старый: ${repo.updated_at}`;
+              repoList.appendChild(repoItem);
+            });
+          })
+          .catch(error => {
+            console.error('Ошибка:', error);
+            document.body.innerHTML += '<p>Произошла ошибка при загрузке данных.</p>';
+          });
+    </script>
+</body>
+</html>
