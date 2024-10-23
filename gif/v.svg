@@ -1,0 +1,42 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Firebase App (модульный способ работы) -->
+        <script type="module">
+            // Импорт необходимых методов из Firebase SDK
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js";
+            import { getDatabase, ref, onValue, runTransaction } from "https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js";
+            
+            // Конфигурация Firebase
+            const firebaseConfig = {
+                apiKey: "AIzaSyD06RRe5nEF5V6NhDF7dzKukUsGA0wDUZQ",
+                authDomain: "githubvc-cb16d.firebaseapp.com",
+                databaseURL: "https://githubvc-cb16d-default-rtdb.firebaseio.com",
+                projectId: "githubvc-cb16d",
+                storageBucket: "githubvc-cb16d.appspot.com",
+                messagingSenderId: "796184488338",
+                appId: "1:796184488338:web:bc8c38d97121ab4926f94b",
+                measurementId: "G-53FWT89H8G"
+            };
+    
+            // Инициализация Firebase
+            const app = initializeApp(firebaseConfig);
+            const db = getDatabase(app);
+    
+            // Ссылка на visits
+            const visitsRef = ref(db, 'visits');
+    
+            // Обновляем счётчик посещений
+            runTransaction(visitsRef, (currentVisits) => {
+                return (currentVisits || 0) + 1;
+            });
+    
+            // Получаем текущее количество посещений и отображаем
+            onValue(visitsRef, (snapshot) => {
+                const visitCount = snapshot.val();
+                document.getElementById('visitCountText').textContent = visitCount; // Изменяем текст внутри SVG
+            });
+        </script>
+    <rect width="200" height="100" fill="#f2f2f2" stroke="#000" stroke-width="2"></rect>
+    <text id="visitCountText" x="50%" y="50%" text-anchor="middle" fill="black" font-size="24px" dy=".3em">
+        Загрузка...
+    </text>
+</svg>
