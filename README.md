@@ -1,4 +1,4 @@
-## Take you time! ⌛️🎩
+## Take your time! ⌛️🎩
 
 **README.md file under repair! My apologies...**
 [![Take you time!](gif/takeyourtime.gif)](https://koi-software.github.io/website/)
