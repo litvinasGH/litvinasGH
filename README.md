@@ -22,7 +22,7 @@
 </picture>
 </div>
 
-## Contact Me 📬
+## Contact, watch and read Me 📬
 
 - **Email:** [ghlivinas@gmail.com](mailto:ghlivinas@gmail.com)
 - **YouTube** [@Litvinas](https://www.youtube.com/channel/UCt57iuPJ1Y)
