@@ -25,8 +25,8 @@
 ## Contact Me 📬
 
 - **Email:** [ghlivinas@gmail.com](mailto:ghlivinas@gmail.com)
-- **YouTube** [@Litvinas](https://www.youtube.com/channel/UCt57iuPJ1Y)
-- **Redit** [@Litvinas-kyn](https://www.reddit.com/user/Litvinas-kyn)
+- **YouTube:** [@Litvinas](https://www.youtube.com/channel/UCt57iuPJ1Y)
+- **Redit:** [@Litvinas-kyn](https://www.reddit.com/user/Litvinas-kyn)
 - **Twitter/X:** [@Litvinas_kyn](https://twitter.com/Litvinas_kyn)
 
 ---
