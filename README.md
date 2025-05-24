@@ -4,7 +4,7 @@
 
 <div align="center" >
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-pf5j.vercel.app/api?username=LitvinasGH&hide=issues&hide_border=true&theme=dark&show_icons=true&bg_color=00000000&icon_color=FF0000">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-pf5j.vercel.app/api?username=LitvinasGH&hide=issues&hide_border=true&theme=dark&show_icons=true&bg_color=00000000&icon_color=FF0000&ring_color=FF0000">
   <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats-pf5j.vercel.app/api?username=LitvinasGH&hide=issues&hide_border=true&theme=dark&show_icons=true&bg_color=0000000&icon_color=FF0000">
   <img src="https://github-readme-stats-pf5j.vercel.app/api?username=LitvinasGH&hide=issues&hide_border=true&theme=dark&show_icons=true&bg_color=0000000&icon_color=FF0000">
 </picture>
