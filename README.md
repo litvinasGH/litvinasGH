@@ -2,8 +2,6 @@
 
 ## GitHub Stats 📊
 
-
-
 <div align="center" >
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-pf5j.vercel.app/api?username=LitvinasGH&hide=issues&hide_border=true&theme=dark&show_icons=true&bg_color=00000000&icon_color=FF0000&ring_color=FF0000">
@@ -25,7 +23,7 @@
 ## Contact Me 📬
 
 - **Email:** [ghlivinas@gmail.com](mailto:ghlivinas@gmail.com)
-- **YouTube:** [@Litvinas](https://www.youtube.com/channel/UCt57iuPJ1Y)
+- **YouTube:** [@Litvinas](https://www.youtube.com/@litvinas2425)
 - **Redit:** [@Litvinas-kyn](https://www.reddit.com/user/Litvinas-kyn)
 - **Twitter/X:** [@Litvinas_kyn](https://twitter.com/Litvinas_kyn)
 
@@ -34,10 +32,6 @@
 ⭐️ Take your time! ⌛️🎩
 
 </div>
-
 <p align="right">
 <img src = "gif/takeyourtime.gif" alt = "Take your time!">
 </p>
-
-
-
