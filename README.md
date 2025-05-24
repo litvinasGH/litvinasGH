@@ -23,9 +23,10 @@
 ## Contact Me 📬
 
 - **Email:** [ghlivinas@gmail.com](mailto:ghlivinas@gmail.com)
-- **YouTube:** [@Litvinas](https://www.youtube.com/@litvinas2425)
+- **YouTube:** [Litvinas](https://www.youtube.com/@litvinas2425)
 - **Redit:** [@Litvinas-kyn](https://www.reddit.com/user/Litvinas-kyn)
 - **Twitter/X:** [@Litvinas_kyn](https://twitter.com/Litvinas_kyn)
+- **stackoverflow:** [Lietuvis hakeris](https://stackoverflow.com/users/30624943)
 
 ---
 
