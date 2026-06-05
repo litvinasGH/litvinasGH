@@ -1,12 +1,21 @@
 <div id="en">
 
 ## 📟 Visitor Counter
-
-<p align="center">
+<!--
+<p align="center" >
   <img
     src="https://github-counter.vaclovkacinskas.workers.dev"
     alt="Visitor Counter"
   />
+</p>
+-->
+<p align="center">
+  <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/1">
+  <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/2">
+  <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/3">
+  <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/4">
+  <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/5">
+  <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/6">
 </p>
 
 ## GitHub Stats 📊
