@@ -1,6 +1,6 @@
 <div id="en">
 
-## 📟 Visitor Counter
+## Visitor Counter 📟
 <!--
 <p align="center" >
   <img
@@ -49,7 +49,7 @@
 <img src="https://streak-stats.demolab.com?user=LitvinasGH&theme=dark&hide_border=true" />
 </p>-->
 
-## Tech Stack
+## Tech Stack 🛠️
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,docker,html,css,js,react,nodejs,go,c,cpp,cs,dotnet,debian,arch,bash" />
