@@ -1,5 +1,14 @@
 <div id="en">
 
+## 📟 Visitor Counter
+
+<p align="center">
+  <img
+    src="https://github-counter.vaclovkacinskas.workers.dev"
+    alt="Visitor Counter"
+  />
+</p>
+
 ## GitHub Stats 📊
 
 <div align="center" >
