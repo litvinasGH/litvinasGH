@@ -33,7 +33,7 @@
     srcset="https://github-readme-stats-pf5j.vercel.app/api/top-langs/?username=LitvinasGH&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&exclude_repo=1-sem-labs&bg_color=00000000"
     media="(prefers-color-scheme: dark)">
   <source
-    srcset="https://github-readme-stats-pf5j.vercel.app/api/top-langs/?username=LitvinasGH&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&exclude_repo=1-sem-labs&bg_color=0000000"
+    srcset="https://github-readme-stats-pf5j.vercel.app/api/top-langs/?username=LitvinasGH&theme=light&hide_border=true&include_all_commits=true&count_private=true&layout=compact&exclude_repo=1-sem-labs&bg_color=0000000"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)">
   <img src="https://github-readme-stats-pf5j.vercel.app/api/top-langs/?username=LitvinasGH&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact&exclude_repo=1-sem-labs&bg_color=0000000">
 </picture>
