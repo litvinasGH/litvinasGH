@@ -18,6 +18,7 @@
   <img src="https://github-counter.vaclovkacinskas.workers.dev/pos/6">
 </p>
 
+
 ## GitHub Stats 📊
 
 <div align="center" >
@@ -48,6 +49,20 @@
 <p align="center">
 <img src="https://streak-stats.demolab.com?user=LitvinasGH&theme=dark&hide_border=true" />
 </p>-->
+
+<div align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/LitvinasGH/LitvinasGH/output/github-contribution-grid-snake-dark.svg">
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/LitvinasGH/LitvinasGH/output/github-contribution-grid-snake.svg">
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/LitvinasGH/LitvinasGH/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
 
 ## Tech Stack 🛠️
 <p align="center">
